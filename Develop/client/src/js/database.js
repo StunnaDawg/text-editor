@@ -32,7 +32,7 @@ try {
 }
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getDb = async (content) => {
+export const getDb = async () => {
 try {
   const jateDb = await openDB('jate', 1);
 
@@ -40,12 +40,13 @@ try {
 
   const store = tx.objectStore('jate');
 
-  const request = store.get(content);
+  const request = store.get('content');
 
   const result = await request;
 
   console.log('result.value', result);
   
+  console.log('hellllllo')
   return result;
 } catch (err) {
   console.error('getDb not implemented', err);
