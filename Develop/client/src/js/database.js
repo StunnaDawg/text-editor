@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// used to add the new text configs to the idexedDB
 export const putDb = async (content) => {
   
 try {
@@ -31,7 +31,7 @@ try {
 }
 }
 
-// TODO: Add logic for a method that gets all the content from the database
+// gets the content from the indexedDB to post to editor
 export const getDb = async () => {
 try {
   const jateDb = await openDB('jate', 1);
@@ -46,7 +46,6 @@ try {
 
   console.log('result.value', result);
   
-  console.log('hellllllo')
   return result;
 } catch (err) {
   console.error('getDb not implemented', err);
