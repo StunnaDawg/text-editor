@@ -23,8 +23,8 @@ Upon downloading the application make sure you do the following:
 
 ## Screenshot
 
-[!Alt](./images/Screenshot%202023-06-01%20at%2010.15.25%20PM.png)
-[!Alt](./images/Screenshot%202023-06-01%20at%2010.16.07%20PM.png)
+![Alt](./images/Screenshot%202023-06-01%20at%2010.15.25%20PM.png)
+![Alt](./images/Screenshot%202023-06-01%20at%2010.16.07%20PM.png)
 
 ## Deployed Link
 
