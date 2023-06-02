@@ -2,7 +2,7 @@
 
 ## Description
 
-The following application is a text editor application, used to write whatever text you want! My motivation for creating this application was to create a text editor that can be downloaded locally to your personal computer. this particualr application uses idb to help use the indexedDB. The application also uses service workers to help with caching. During the development of this project I learned how to retrieve and store data using the idb wrapper for indexedDB. I also learned how to create an installable application as well as utilzie service workers to help with caching! I ran into problems on figuring out which get methods to utilzie for idb. I also ran into problem with the service workers, encountaring multiple errors.
+The following application is a text editor application, used to write whatever text you want! My motivation for creating this application was to create a text editor that can be downloaded locally to your personal computer. this particualr application uses idb to help use the indexedDB. The application also uses service workers to help with caching. During the development of this project I learned how to retrieve and store data using the idb wrapper for indexedDB. I also learned how to create an installable application as well as utilize service workers to help with caching! I ran into problems on figuring out which get methods to utilzie for idb. I also ran into problem with the service workers, encountaring multiple errors. Though in the end I figured everything out.
 ## Installation 
 
 Though this application is served on a server via Heroku you are able to install it following these steps:
